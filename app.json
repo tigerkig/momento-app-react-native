@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "momentoapp",
+    "slug": "momentoapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/customsplash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tcm007.momentoapp",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.plic_19.momentoapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9c57b342-9f3e-45d6-a21a-e50dc6674e0d"
+      }
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin",
+      "expo-image-picker"
+    ]
+  }
+}

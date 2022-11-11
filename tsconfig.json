@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "target": "ESNext",
+    "module": "commonjs",
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": false,
+    "typeRoots" : ["node_modules/@types", "src/types"]
+  },
+  "include": [
+    "src", "config"  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+  "extends": "expo/tsconfig.base"
+}
